@@ -30,4 +30,9 @@ export class EnterStoryComponent implements OnInit {
 
   }
 
+  hanlonClick(){
+    document.body.scrollTo(0,3550); // For Safari
+    document.documentElement.scrollTo(0,3550); // For Chrome, Firefox, IE and Opera
+  }
+
 }
