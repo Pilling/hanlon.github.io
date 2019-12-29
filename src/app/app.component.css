@@ -1,0 +1,16 @@
+
+h1 { 
+    font: italic 1.4em georgia, sans-serif;
+	letter-spacing: 3px; 
+	margin-bottom: 0; 
+	color: white;
+    background-color: #686868;
+    margin-top: 0px;
+	display: block;
+	float: center;
+	}
+
+#menu-bar {
+	background-color: #686868;
+	color: white;
+	}

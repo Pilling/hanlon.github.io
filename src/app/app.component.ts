@@ -20,7 +20,12 @@ export class AppComponent implements OnInit {
   }
   
   menuClick() {
+    
+    document.body.scrollTo(0,200); // For Safari
+    document.documentElement.scrollTo(0,200); // For Chrome, Firefox, IE and Opera
+    
     this.menu.reversed() ? this.menu.play() : this.menu.reverse();	
     return console.log('clicked');
+
    }
 }
