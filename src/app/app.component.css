@@ -1,4 +1,11 @@
 
+.item-1{
+	grid-column-start: 2;
+	grid-column-end: five;
+	grid-row-start: row1-start;
+	grid-row-end: 3;
+}
+
 h1 { 
     font: italic 1.4em georgia, sans-serif;
 	letter-spacing: 3px; 
